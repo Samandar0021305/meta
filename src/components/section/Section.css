@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section{
+    background: #000000;
+}
+
+.section__btn{
+    padding: 16px 40px;
+    border: 1px solid #8DFD1B;
+    background: inherit;
+    color: white;
+}
+
+.section__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__list h2{
+    color: white;
+}
