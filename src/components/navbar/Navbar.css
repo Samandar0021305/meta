@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.navbar{
+    background: #000000;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+.navbar__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__box p{
+color: white;
+cursor: pointer;
+transition: 0.4s;
+transition-timing-function: ease-in-out;
+
+}
+
+.navbar__box ul{
+    width: 40%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.navbar__box p:hover{
+    color: aqua;
+
+}
